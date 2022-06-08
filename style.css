@@ -92,14 +92,17 @@ button:hover {
   }
 }
 
-.grid_1-1-1-1-1 {
+.grid_1-1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-right: 1rem;
 }
-.grid_1-1-1-1-1 div {
+.grid_1-1-1-1 div {
   border-left: 0.5px solid black;
   border-right: 0.5px solid black;
+}
+.grid_1-1-1-1 img {
+  width: 100%;
 }
 
 .nav {
@@ -153,4 +156,14 @@ button:hover {
 }
 section {
   display: flex;
+}
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.svg-work {
+  width: 16px;
+}
+.svg-edu {
+  width: 16px;
 }
