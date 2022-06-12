@@ -167,3 +167,13 @@ section {
 .svg-edu {
   width: 16px;
 }
+.grid_1-2 col {
+  border-right: 0.5px solid black;
+}
+.line {
+  border-bottom: 0.5px solid black;
+}
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
