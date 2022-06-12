@@ -1,0 +1,128 @@
+.portfolio-section {
+  min-height: 100vh;
+}
+.portfolio-section--first {
+  min-height: calc(100vh - var(--header-height));
+}
+.portfolio-section__nav {
+  display: flex;
+  padding: 0 2rem 0 1rem;
+}
+.portfolio-section__content {
+  flex-grow: 1;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.portfolio-section__title {
+  margin-bottom: 1rem;
+}
+.portfolio-section__title-underline {
+  width: 300px;
+  height: 1px;
+  background: red;
+}
+.portfolio-section__link {
+  margin-top: 15px;
+}
+.portfolio-section__link a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.portfolio-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-nav__number {
+  font-weight: bold;
+  font-size: 24px;
+}
+.portfolio-nav__sub-section {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.portfolio-nav__info {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-nav__dot {
+  width: 6px;
+  height: 6px;
+  background: black;
+  border-radius: 100%;
+}
+
+.portfolio-nav__text {
+  margin-left: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.portfolio-nav__line {
+  margin-top: 10px;
+  margin-left: 2px;
+  background: black;
+  height: 50px;
+  width: 1px;
+}
+.portfolio-nav__dot--grey {
+  width: 6px;
+  height: 6px;
+  background: rgb(202, 202, 202);
+  border-radius: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.portfolio-section__projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.portfolio-section__projects img {
+  width: 100%;
+}
+
+.portfolio-section__projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.portfolio-section__projects-grid--reverse div:first-child {
+  order: 1;
+}
+.portfolio-section__projects-grid--reverse div:last-child {
+  order: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio-section {
+    display: block;
+  }
+  .portfolio-nav__line {
+    display: none;
+  }
+  .portfolio-nav__sub-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .portfolio-section__projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .portfolio-section__projects-grid--reverse div:first-child {
+    order: 2;
+  }
+  .portfolio-section__projects-grid--reverse div:last-child {
+    order: 1;
+  }
+}
