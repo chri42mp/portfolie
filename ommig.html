@@ -22,20 +22,21 @@
       <nav class="main-menu">
         <button class="toggle-btn">☰</button>
         <ul>
-          <li><a href="ommig.html">Om mig</a></li>
+          <li><a href="ommig.html" class="active">Om mig</a></li>
           <li><a href="portfolio.html">Portfolie</a></li>
         </ul>
       </nav>
     </header>
 
+
     <section class="about-section">
       <div class="about-section__content">
         <div class="about-section__grid-1-1">
           <div class="col">
-            <img src="portrait" alt="" />
+            <img src="portrait-about.jpg" style="width: 100%;" alt="" />
           </div>
           <div class="col">
-            <h1>Jeg er Christine Ramm, multimediedesigner studerende</h1>
+            <h1>Profil</h1>
             <p>
               Som person er jeg meget åben, smilende og imødekommende. Og går
               meget op i at skabe en god atmosfære omkring mig, og mine
@@ -59,14 +60,14 @@
           <div class="col">
             <div class="about-section__content-box">
               <h3>Designgaven.dk</h3>
-              <p>Januar 2021 - Aktuel</p>
+              <p class="date">Januar 2021 - Aktuel</p>
               <p>I takt med jeg arbejde som butiksassistent i Designgaven, blev jeg tilbudt at få lov til at have mere med hjemmesiden at gøre. Hvilket resulterede i arbejdsopgaver såsom; bestille varer fra diverse leverandører, kundeservice, pakke webordre, oprette produkter, Seo optimering og lave nyhedsbreve til hjemmesiden.</p>
             </div>
           </div>
          <div class="col">
             <div class="about-section__content-box">
               <h3>Ekram.dk</h3>
-              <p>Februar 2022 - Aktuel</p>
+              <p class="date">Februar 2022 - Aktuel</p>
               <p>Efter jeg startede på uddanelse, rykkede jeg ud til firmaets anden hjemmeside sammen med designgaven.dk. Hvor jeg pakker webordre, opretter produkter samt laver SEO optimering. </p>
             </div>
           </div>
@@ -80,41 +81,49 @@
           <div class="col skills-col">
             <img src="Design.svg" alt="" style="width: 100px">
             <h3>Design</h3>
-            <li>UI/UX Design</li>
-            <li>Webdesign</li>
+            <ul>
+              <li>UI/UX Design</li>
+              <li>Webdesign</li>
+            </ul>
           </div>
            <div class="col skills-col">
             <img src="development.svg" alt="" style="width: 100px">
-            <h3>Development</h3>
-            <li>HTMl</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            
+              <h3>Development</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          
           </div>
            <div class="col skills-col">
             <img src="Tools.svg" alt="" style="width: 100px">
             <h3>Tools</h3>
-            <li>Visual Code Studio</li>
-            <li>Adobe XD</li>
-            <li>Photoshop</li>
-            <li>Illustrator</li>
-            <li>Premiere Pro</li>
+            <ul>
+              <li>Visual Studio Code</li>
+              <li>Adobe XD</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Premiere Pro</li>
+            </ul>
             
           </div>
     </section>
     <footer>
-      <a href="">
-<img src="Facebook.svg" alt="" style="width: 30px">
-
+      <div class="container footer-container">
+      <a href="https://www.facebook.com/christine.ramm.16" class="social-link social-link-one">
+        <img src="Facebook.svg" alt="" style="width: 30px">
       </a>
-      <a href="">
+      <a href="https://www.instagram.com/christineramm/" class="social-link social-link-two">
 <img src="Instagram.svg" alt="" style="width: 30px">
       </a>
-      <a href="">
+      <a href="https://www.linkedin.com/in/christine-ramm-a795a9241/" class="social-link social-link-three">
 <img src="Linkedin.svg" alt="" style="width: 30px">
       </a>
-<div class="footer_line"></div>
+      </div>
 
+      <span class="divider footer-divider"></span>
+      <p>Copyright © Christine Ramm | - Powered by One.com</p>
     </footer>
 
     <script src="script.js"></script>
