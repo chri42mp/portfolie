@@ -23,13 +23,14 @@
 .portfolio-section__title-underline {
   width: 300px;
   height: 1px;
-  background: red;
+  background-color: var(--secondary-color);
 }
 .portfolio-section__link {
   margin-top: 15px;
 }
 .portfolio-section__link a {
-  color: blue;
+  color: var(--first-color);
+  font-weight: bold;
   text-decoration: underline;
 }
 
