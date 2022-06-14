@@ -1,9 +1,6 @@
 .portfolio-section {
   min-height: 100vh;
 }
-.portfolio-section--first {
-  min-height: calc(100vh - var(--header-height));
-}
 .portfolio-section__nav {
   display: flex;
   padding: 0 2rem 0 1rem;
