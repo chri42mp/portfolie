@@ -105,6 +105,40 @@
   order: 2;
 }
 
+.row-left {
+  display: flex;
+  justify-content: space-between;
+}
+.row-left__side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  display: flex;
+}
+.row-left__line {
+  background: black;
+  height: 100%;
+  width: 1px;
+}
+.row-left__dot {
+  width: 6px;
+  height: 6px;
+  background: black;
+  border-radius: 100%;
+}
+.row-left__theme {
+  white-space: nowrap;
+  padding-right: var(--space-xs);
+}
+.row-content {
+  padding-left: var(--space-xs);
+}
+.se-projektet {
+  font-weight: bold;
+}
+
 @media screen and (max-width: 600px) {
   .portfolio-section {
     display: block;
